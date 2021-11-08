@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Victorina</string>
+    <string name="Bati1">Играть</string>
+
+    <string name="Txt1">Какой сигнатурный герой Athas?</string>
+    <string name="Bt1">Wraith King</string>
+    <string name="Bt2">WindRanger</string>
+    <string name="Bt3">Quin of Pain</string>
+    <string name="Bati2">Дальше</string>
+
+
+
+    <string name="Txt2">Что это за герой?</string>
+    <string name="Bt4">TerrorBlade</string>
+    <string name="Bt5">Void Spirit</string>
+    <string name="Bt6">Techies</string>
+    <string name="Bati3">Дальше</string>
+    <string name="Bati4">Назад</string>
+
+    <string name="Txt3">Что это за предмет?</string>
+    <string name="Bt7">Abyssal Blade</string>
+    <string name="Bt8">Blink Dagger</string>
+    <string name="Bt9">Eul</string>
+    <string name="Bati5">Дальше</string>
+    <string name="Bati6">Назад</string>
+
+    <string name="Txt4">Как называется четвертый скилл у Огра Мага?</string>
+    <string name="Bt10">FireBlast</string>
+    <string name="Bt11">MultiCast</string>
+    <string name="Bt12">Ignite</string>
+    <string name="Bati7">Дальше</string>
+    <string name="Bati8">Назад</string>
+
+    <string name="Txt5">Сколько всего героев?</string>
+    <string name="Bt13">100</string>
+    <string name="Bt14">105</string>
+    <string name="Bt15">117</string>
+    <string name="Bati9">Дальше</string>
+    <string name="Bati10">Назад</string>
+
+    <string name="ResultiButi">Узнать свой гендер</string>
+
+</resources>

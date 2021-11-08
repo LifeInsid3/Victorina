@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/im3">
+
+    <RadioGroup
+        android:layout_width="247dp"
+        android:layout_height="367dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="87dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.800">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/Bt7"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:background="@drawable/button_back2"
+            android:onClick="WrongAnswer7"
+            android:text="@string/Bt10"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/Bt8"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:background="@drawable/button_back2"
+            android:onClick="rightAnswer4"
+            android:text="@string/Bt11"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/Bt9"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:background="@drawable/button_back2"
+            android:onClick="WrongAnswer8"
+            android:text="@string/Bt12"
+            android:textColor="@color/white" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/Txt3"
+        android:layout_width="359dp"
+        android:layout_height="50dp"
+        android:text="@string/Txt4"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <VideoView
+        android:id="@+id/Vidi5"
+        android:layout_width="320dp"
+        android:layout_height="226dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.031" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
